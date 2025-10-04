@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale 1.0">
+  <meta name="description" content="Using links and images element.">
+</head>
+
+<body>
+  <!-- Links using anchor tag -->
+
+  <!-- Absolute URL (Scheme (https://) and Domain, go to a different website)-->
+  <!-- https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL/mdn-url-all.png -->
+
+  <h1>GitHub</h1>
+  <a href="https://github.com/vinceopaul" target=" _blank" rel="noopener nonreferrer">My GitHub Account</a>
+  <!-- noopener: -prevents destination page access the original Page -->
+  <!-- nonreferrer: - prevents the destination page to know where the user came from -->
+  <!-- Note: already enough if target= "_blank" attrb is present -->
+
+  <br>
+  <a href="./pages/page2.html#hello">Open 2<sup>nd</sup>Page</a>
+  <!-- Relative URL + Anchor link (within the current webpage/website )-->
+  <!-- Including a  class '.' or id '#' attribute, you can link another page and navigate to the specified section of the linked page, according with the attribute value -->
+
+  <!-- Root-relative -->
+  <li>Root-relative links, like to the <a href='/'>home page</a> of our website,
+    but those aren't useful to us right now.</li>
+
+  <!-- Images (Yes, images!)-->
+
+  <!-- <img src="" alt="" srcset="" sizes="">> srcset and sizes helps in making responsive pages-->
+  <br>
+  <a href="https://google.com" target="_blank" title="Visit Google.com"> <img
+      src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/1500925839-golden-retriever-puppy.jpg"
+      alt="URL diagram" height="200" width="400"></a>
+  <h2>Hello, I am a dog.</h2>
+
+  <!-- You can turn an element into link by nesting it as a content on anchor tag-->
+  <!-- You can also add a dialog pop up on what destination it will go to when clicked -->
+  <br>
+  <h2>HTML Entities = reserved word</h2>
+  <p>There are three reserved characters in HTML: &lt; &gt; and &amp;. You
+    should always use HTML entities for these three characters.</p>
+
+
+</body>
+
+</html>
