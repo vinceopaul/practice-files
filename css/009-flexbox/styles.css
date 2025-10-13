@@ -19,12 +19,6 @@
   justify-content: space-between;
 }
 
-.links {
-  border: 1px solid #fff; /* For debugging */
-  display: flex;
-  justify-content: flex-end;
-}
-
 .login {
   margin-left: 20px;
 }
@@ -34,6 +28,10 @@
   background-color: #d6e9fe;
   display: flex;
   justify-content: center;
+}
+
+.signup {
+  margin-left: auto;
 }
 
 .header {
