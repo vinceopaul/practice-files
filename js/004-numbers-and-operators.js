@@ -14,7 +14,7 @@ true + false; //1
 "4px" - 2; // NaN
 "  -9  " + 5; // " -9  5"
 "  -9  " - 5; // -14 (spaces are trimmed during coercion)
-null + 1; // NaN
+null + 1; //1
 undefined + 1; //NaN
 " \t \n" - 2; // -2
 
