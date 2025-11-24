@@ -38,8 +38,10 @@ function sumInput() {
     arr.push(numInput);
   } while (true);
   console.log(arr);
-  let sum = 0;
-  arr.forEach((userInput) => (sum += userInput));
+  // let sum = 0;
+  // arr.forEach((userInput) => (sum += userInput));
+
+  let sum = arr.reduce((inputSum, userInput) => (inputSum += userInput), 0);
   return sum;
 }
 // alert(sumInput());
