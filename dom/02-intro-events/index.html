@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <!-- Not ideal -->
+  <button onclick="alert('Hello World')">Click Me</button>
+
+  <!-- Slight problem -->
+  <button id="btn">Click Me</button>
+
+  <!-- Ideal and flexible -->
+  <button id="btn2">Click Me Too</button>
+
+  <!-- Named Function -->
+  <button onclick="alertFunction()">CLICK ME BABY</button>
+
+  <button id="btn3">CLICK ME BABY</button>
+
+  <!-- Event object test -->
+  <button id="btn4">Hey Turn me to blue!</button>
+
+  <!-- Attaching listeners to groups of nodes -->
+  <div id="container">
+    <button id="item1">Click Me</button>
+    <button id="item2">Click Me</button>
+    <button id="item3">Click Me</button>
+  </div>
+
+</body>
+
+</html>
